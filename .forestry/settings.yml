@@ -7,19 +7,19 @@ sections:
 - type: heading
   label: Content
 - type: jekyll-posts
-  label: Posts
+  label: Blog
   create: all
   templates:
   - posts
 - type: jekyll-pages
-  label: Pages
+  label: Páginas
   create: all
   templates:
   - landing-page
   - default
 - type: directory
   path: _people
-  label: People
+  label: Membros
   create: all
   match: "*"
   templates:
